@@ -1,0 +1,21 @@
+{
+	"name": "je-bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/main.ts",
+	"author": "ente-baum-org",
+	"license": "GPL-3.0-only",
+  "type": "module",
+	"scripts": {
+		"dev": "nodemon src/main.ts"
+	},
+	"devDependencies": {
+		"typescript": "^5.9.3",
+		"dotenv": "^17.2.3",
+		"nodemon": "^3.1.10",
+		"ts-node": "^10.9.2"
+	},
+	"dependencies": {
+		"discord.js": "^14.24.2"
+	}
+}
